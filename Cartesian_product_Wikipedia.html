@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html class="client-js ve-not-available" dir="ltr" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Cartesian product - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cartesian_product","wgTitle":"Cartesian product","wgCurRevisionId":747078484,"wgRevisionId":747078484,"wgArticleId":24104095,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Axiom of choice","Basic concepts in set theory","Binary operations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cartesian_product","wgRelevantArticleId":24104095,"wgRequestId":"WGeg3ApAAD0AAhloe8kAAAAK","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q173740","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.math.scripts","ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="Cartesian_product_%20Wikipedia_files/load.css">
+<script async="" src="Cartesian_product_%20Wikipedia_files/load_002.php"></script>
+<style>
+.cite-accessibility-label{ top:-99999px;clip:rect( 1px 1px 1px 1px ); clip:rect( 1px,1px,1px,1px ); position:absolute !important;padding:0 !important;border:0 !important;height:1px !important;width:1px !important; overflow:hidden}
+.referencetooltip{position:absolute;list-style:none;list-style-image:none;opacity:0;font-size:10px;margin:0;z-index:5;padding:0}.referencetooltip li{border:#080086 2px solid;max-width:260px;padding:10px 8px 13px 8px;margin:0px;background-color:#F7F7F7;-webkit-box-shadow:2px 4px 2px rgba(0,0,0,0.3);-moz-box-shadow:2px 4px 2px rgba(0,0,0,0.3);box-shadow:2px 4px 2px rgba(0,0,0,0.3)}.referencetooltip li+li{margin-left:7px;margin-top:-2px;border:0;padding:0;height:3px;width:0px;background-color:transparent;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border-top:12px #080086 solid;border-right:7px transparent solid;border-left:7px transparent solid}.referencetooltip>li+li::after{content:'';border-top:8px #F7F7F7 solid;border-right:5px transparent solid;border-left:5px transparent solid;margin-top:-12px;margin-left:-5px;z-index:1;height:0px;width:0px;display:block}.client-js body .referencetooltip li li{border:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;height:auto;width:auto;margin:auto;padding:0;position:static}.RTflipped{padding-top:13px}.referencetooltip.RTflipped li+li{position:absolute;top:2px;border-top:0;border-bottom:12px #080086 solid}.referencetooltip.RTflipped li+li::after{border-top:0;border-bottom:8px #F7F7F7 solid;position:absolute;margin-top:7px}.RTsettings{float:right;height:24px;width:24px;cursor:pointer;background-image:url(//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Gear_icon.svg/24px-Gear_icon.svg.png);background-image:linear-gradient(transparent,transparent),url(//upload.wikimedia.org/wikipedia/commons/7/77/Gear_icon.svg);margin-top:-9px;margin-right:-7px;-webkit-transition:opacity 0.15s;-moz-transition:opacity 0.15s;-ms-transition:opacity 0.15s;-o-transition:opacity 0.15s;transition:opacity 0.15s;opacity:0.6;filter:alpha(opacity=60)}.RTsettings:hover{opacity:1;filter:alpha(opacity=100)}.RTTarget{border:#080086 2px solid}
+.skin-vector li.GA,.skin-monobook li.GA,.skin-modern li.GA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png)} .skin-vector li.FA,.skin-monobook li.FA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png)}.skin-modern li.FA{list-style-image:url(//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Modern-bullet-star.svg/9px-Modern-bullet-star.svg.png)}
+.wp-teahouse-question-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}#wp-th-question-ask{float:right}.wp-teahouse-ask a.external{background-image:none !important}.wp-teahouse-respond-form{position:absolute;margin-left:auto;margin-right:auto;background-color:#f4f3f0;border:1px solid #a7d7f9;padding:1em}.wp-th-respond{float:right}.wp-teahouse-respond a.external{background-image:none !important}
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:solid 1px #aaa;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4c59a6;color:#fff}.suggestions-special .special-label{color:#808080;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c0c0c0}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toctoggle{display:none}}
+.uls-menu{border-radius:4px; font-size:medium}.uls-search,.uls-language-settings-close-block{border-top-right-radius:4px;border-top-left-radius:4px}.uls-language-list{border-bottom-right-radius:4px;border-bottom-left-radius:4px}.uls-menu.callout .caret-before,.uls-menu.callout .caret-after{border-top:10px solid transparent;border-right:10px solid #c9c9c9;border-bottom:10px solid transparent;display:inline-block;left:-11px; top:17px;position:absolute}.uls-menu.callout .caret-after{border-right:10px solid #fcfcfc;display:inline-block;left:-10px}.uls-menu.callout--languageselection .caret-after{border-right:10px solid #fff}.uls-ui-languages button{margin:5px 15px 5px 0;white-space:nowrap;overflow:hidden}.uls-search-wrapper-wrapper{position:relative;padding-left:40px;margin-top:5px;margin-bottom:5px}.uls-icon-back{background:transparent url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.png?90e9b) no-repeat scroll center center;background-image:-webkit-linear-gradient( transparent,transparent ),url(/w/extensions/UniversalLanguageSelector/resources/images/back-grey-ltr.svg?ae714);background-image:linear-gradient( transparent,transparent ),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20id%3D%22Layer_1%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M7%2013.1l8.9%208.9c.8-.8.8-2%200-2.8l-6.1-6.1%206-6.1c.8-.8.8-2%200-2.8L7%2013.1z%22%20id%3D%22path3%22%20fill%3D%22%23555%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-size:28px;background-position:center center;height:32px;width:40px;display:block;position:absolute;left:0;border-right:1px solid #c9c9c9;opacity:0.8}.uls-icon-back:hover{opacity:1;cursor:pointer}
+@media print{#centralNotice{display:none}}.cn-closeButton{display:inline-block;zoom:1;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAACeklEQVR4Aa1UM3jkcRBN6qS//tTFttPHqmI359VZ5dm2L1zFtr02YlRx5sX2ft/7ed7O/w1M5ufnt8NZQjCBQXhG+IYZe5zjfju7xcHc3NzEzMwM6xOEqNnZ2ZeVlZW827dv1ycmJnbGx8d3Yr5582Z9eXk5D/d4h/empqYm+K0nw3yKcF4sFmdzOJzGgIAAhb29vc7Ozk6/Atrr/fz8lCwWq6m3tzcb72G3nmzFo/NNTU354eHhIltbW72Tk5M2IyND9P79+8ZPnz7VvXnzpoHBYPS4uLhobGxsDMHBwaLa2tp82MF+PVmUUqnMioiI6LOysjLQLCcPS2ZmZn7Ozc39oPtFYG80GgWpqakSS0tLY1hYmEgikWTBfoXsLD16BT3gUWhoqEKtVheREZ+Qu0IEjI+PZ2k0GqFer+cnJSWJra2tDWw2u2FqauoVeEAW3NzcnBcYGCh3dHTUtba2ltNjLvRJSEiQEQEPRENDQzkMBqPXwsKiXyqVFsFDNzc3LWmoqKmp4YIHZIyHDx9WOzg46GJiYmTk5e/h4eHstLQ0CX2ykXST4JPJ8y7sSVM5/QGMf9y4caMHf3r//v1a8IDsGRm04/D58+dtpNFPPNRqtflXrlzpI8G15IEGc2xsrFSlUglwD+Tk5NRBmuTk5A7wgOxbXFxcF8iysrIa1mskEolKvL29Ne7u7mpXV1dNaWlp9fr7X79+VYMMeQieY/dsv5p1r2g2Nja2vWZ7RXNiYuIA0dwlzwYGBjbkGXmURXeLeUa1ul2ebV8BEH+7CiAiASTYvgJ2qc3MzMzF2vz8+XPd27dvG5hMZg+CsV1tHmfXOP5+dqyddgHOI7v1srTdcwAAAABJRU5ErkJggg==);background:url(/w/extensions/CentralNotice/resources/subscribing/CloseWindow19x19.png?7596b)!ie;width:19px;height:19px;text-indent:19px;white-space:nowrap;overflow:hidden}
+.mw-ui-button{font-family:inherit;font-size:1em;display:inline-block;min-width:4em;max-width:28.75em;padding:.5em 1em;margin:0;border-radius:2px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;*display:inline;zoom:1;vertical-align:middle;background-color:#f8f9fa;color:#222222;border:1px solid #a2a9b1;text-align:center;font-weight:bold;cursor:pointer}.mw-ui-button:visited{color:#222222}.mw-ui-button:hover{background-color:#ffffff;color:#444444;border-color:#a2a9b1}.mw-ui-button:focus{background-color:#ffffff;color:#222222;border-color:#3366cc;box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff}.mw-ui-button:active,.mw-ui-button.is-on,.mw-ui-button.mw-ui-checked{background-color:#d9d9d9;color:#000000;border-color:#72777d;box-shadow:none}.mw-ui-button:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button:disabled:hover,.mw-ui-button:disabled:active{background-color:#c8ccd1;color:#fff;box-shadow:none;border-color:#c8ccd1}.mw-ui-button:focus{outline-width:0}.mw-ui-button:focus::-moz-focus-inner{border-color:transparent;padding:0}.mw-ui-button:not( :disabled ){-webkit-transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;-moz-transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms;transition:background-color 100ms,color 100ms,border-color 100ms,box-shadow 100ms}.mw-ui-button:disabled{text-shadow:none;cursor:default}.mw-ui-button.mw-ui-big{font-size:1.3em}.mw-ui-button.mw-ui-block{display:block;width:100%;margin-left:auto;margin-right:auto}.mw-ui-button.mw-ui-progressive,.mw-ui-button.mw-ui-constructive{background-color:#3366cc;color:#fff;border:1px solid #3366cc;text-shadow:0 1px rgba(0,0,0,0.1)}.mw-ui-button.mw-ui-progressive:hover,.mw-ui-button.mw-ui-constructive:hover{background-color:#447ff5;border-color:#447ff5}.mw-ui-button.mw-ui-progressive:focus,.mw-ui-button.mw-ui-constructive:focus{box-shadow:inset 0 0 0 1px #3366cc,inset 0 0 0 2px #ffffff}.mw-ui-button.mw-ui-progressive:active,.mw-ui-button.mw-ui-constructive:active,.mw-ui-button.mw-ui-progressive.is-on,.mw-ui-button.mw-ui-constructive.is-on,.mw-ui-button.mw-ui-progressive.mw-ui-checked,.mw-ui-button.mw-ui-constructive.mw-ui-checked{background-color:#2a4b8d;border-color:#2a4b8d;box-shadow:none}.mw-ui-button.mw-ui-progressive:disabled,.mw-ui-button.mw-ui-constructive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-progressive:disabled:hover,.mw-ui-button.mw-ui-constructive:disabled:hover,.mw-ui-button.mw-ui-progressive:disabled:active,.mw-ui-button.mw-ui-constructive:disabled:active,.mw-ui-button.mw-ui-progressive:disabled.mw-ui-checked,.mw-ui-button.mw-ui-constructive:disabled.mw-ui-checked{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-progressive.mw-ui-quiet,.mw-ui-button.mw-ui-constructive.mw-ui-quiet{color:#222222}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:hover,.mw-ui-button.mw-ui-constructive.mw-ui-quiet:hover{background-color:transparent;color:#447ff5}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:active,.mw-ui-button.mw-ui-constructive.mw-ui-quiet:active,.mw-ui-button.mw-ui-progressive.mw-ui-quiet.mw-ui-checked,.mw-ui-button.mw-ui-constructive.mw-ui-quiet.mw-ui-checked{color:#2a4b8d}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:focus,.mw-ui-button.mw-ui-constructive.mw-ui-quiet:focus{background-color:transparent;color:#3366cc}.mw-ui-button.mw-ui-progressive.mw-ui-quiet:disabled,.mw-ui-button.mw-ui-constructive.mw-ui-quiet:disabled{color:#c8ccd1}.mw-ui-button.mw-ui-destructive{background-color:#dd3333;color:#fff;border:1px solid #dd3333;text-shadow:0 1px rgba(0,0,0,0.1)}.mw-ui-button.mw-ui-destructive:hover{background-color:#ff4242;border-color:#ff4242}.mw-ui-button.mw-ui-destructive:focus{box-shadow:inset 0 0 0 1px #dd3333,inset 0 0 0 2px #ffffff}.mw-ui-button.mw-ui-destructive:active,.mw-ui-button.mw-ui-destructive.is-on,.mw-ui-button.mw-ui-destructive.mw-ui-checked{background-color:#b32424;border-color:#b32424;box-shadow:none}.mw-ui-button.mw-ui-destructive:disabled{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1}.mw-ui-button.mw-ui-destructive:disabled:hover,.mw-ui-button.mw-ui-destructive:disabled:active,.mw-ui-button.mw-ui-destructive:disabled.mw-ui-checked{background-color:#c8ccd1;color:#fff;border-color:#c8ccd1;box-shadow:none}.mw-ui-button.mw-ui-destructive.mw-ui-quiet{color:#222222}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:hover{background-color:transparent;color:#ff4242}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:active,.mw-ui-button.mw-ui-destructive.mw-ui-quiet.mw-ui-checked{color:#b32424}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:focus{background-color:transparent;color:#dd3333}.mw-ui-button.mw-ui-destructive.mw-ui-quiet:disabled{color:#c8ccd1}.mw-ui-button.mw-ui-quiet{background:transparent;border:0;text-shadow:none;color:#222222}.mw-ui-button.mw-ui-quiet:hover{background-color:transparent;color:#444444}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet.mw-ui-checked{color:#000000}.mw-ui-button.mw-ui-quiet:focus{background-color:transparent;color:#222222}.mw-ui-button.mw-ui-quiet:disabled{color:#c8ccd1}.mw-ui-button.mw-ui-quiet:hover,.mw-ui-button.mw-ui-quiet:focus{box-shadow:none}.mw-ui-button.mw-ui-quiet:active,.mw-ui-button.mw-ui-quiet:disabled{background:transparent}a.mw-ui-button{text-decoration:none;line-height:normal}a.mw-ui-button:hover,a.mw-ui-button:focus{text-decoration:none}.mw-ui-button-group > *{min-width:48px;border-radius:0;float:left}.mw-ui-button-group > *:first-child{border-top-left-radius:2px;border-bottom-left-radius:2px}.mw-ui-button-group > *:not( :first-child ){border-left:0}.mw-ui-button-group > *:last-child{border-top-right-radius:2px;border-bottom-right-radius:2px}.mw-ui-button-group .is-on .button{cursor:default}
+.mw-ui-icon{position:relative;line-height:1.5em;min-height:1.5em;min-width:1.5em}.mw-ui-icon.mw-ui-icon-element{text-indent:-999px;overflow:hidden;width:3.5em;min-width:3.5em;max-width:3.5em}.mw-ui-icon.mw-ui-icon-element:before{left:0;right:0;position:absolute;margin:0 1em}.mw-ui-icon.mw-ui-icon-before:before,.mw-ui-icon.mw-ui-icon-element:before{background-position:50% 50%;background-repeat:no-repeat;background-size:100% auto;float:left;display:block;min-height:1.5em;content:''}.mw-ui-icon.mw-ui-icon-before:before{position:relative;width:1.5em;margin-right:1em}.mw-ui-icon.mw-ui-icon-small:before{background-size:66.67% auto}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba( 255,255,255,0.5 );border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/w/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:#000;text-shadow:0 0.0625em 0 #fff;text-decoration:none;opacity:0.2;filter:alpha( opacity=20 )}.postedit-close:hover{color:#000;text-decoration:none;opacity:0.4;filter:alpha( opacity=40 )}
+@-webkit-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-webkit-transform:translateY(-20px)}100%{opacity:1;-webkit-transform:translateY(0)}}@-moz-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-moz-transform:translateY(-20px)}100%{opacity:1;-moz-transform:translateY(0)}}@-o-keyframes centralAuthPPersonalAnimation{0%{opacity:0;-o-transform:translateY(-20px)}100%{opacity:1;-o-transform:translateY(0)}}@keyframes centralAuthPPersonalAnimation{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}.centralAuthPPersonalAnimation{-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:centralAuthPPersonalAnimation;-moz-animation-name:centralAuthPPersonalAnimation;-o-animation-name:centralAuthPPersonalAnimation;animation-name:centralAuthPPersonalAnimation}
+.ext-quick-survey-panel,.ext-qs-loader-bar{width:auto;background-color:#eeeeee} .ext-qs-loader-bar{display:block;height:100px;margin-left:1.4em;clear:right;float:right;background-color:#eeeeee}.ext-qs-loader-bar.mw-ajax-loader{top:0}@media all and (min-width:720px){.ext-qs-loader-bar,.ext-quick-survey-panel{margin-left:1.4em;width:300px;clear:right;float:right}}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+#uls-settings-block{border-top:1px solid #c9c9c9;background:#f8f8f8;background:-webkit-gradient( linear,left top,left bottom,from( #fbfbfb ),to( #f0f0f0 ) );background:-webkit-linear-gradient( top,#fbfbfb,#f0f0f0 );background:-moz-linear-gradient( top,#fbfbfb,#f0f0f0 );background:-o-linear-gradient( top,#fbfbfb,#f0f0f0 );background:linear-gradient( #fbfbfb,#f0f0f0 );padding-left:10px;line-height:1.2em;border-radius:0 0 5px 5px}#uls-settings-block div.display-settings-block,#uls-settings-block div.input-settings-block{display:inline-block;margin:8px 15px;color:#565656}#uls-settings-block div.display-settings-block:hover,#uls-settings-block div.input-settings-block:hover{color:#252525}
+.mw-mmv-overlay{position:fixed;top:0;left:0;right:0;bottom:0;z-index:1000;background-color:#000000}body.mw-mmv-lightbox-open{overflow-y:auto;  }body.mw-mmv-lightbox-open #mw-page-base,body.mw-mmv-lightbox-open #mw-head-base,body.mw-mmv-lightbox-open #mw-navigation,body.mw-mmv-lightbox-open #content,body.mw-mmv-lightbox-open #footer,body.mw-mmv-lightbox-open #globalWrapper{ display:none}body.mw-mmv-lightbox-open > *{ display:none}body.mw-mmv-lightbox-open > .mw-mmv-overlay,body.mw-mmv-lightbox-open > .mw-mmv-wrapper{display:block}.mw-mmv-filepage-buttons{margin-top:5px}.mw-mmv-filepage-buttons .mw-mmv-view-expanded,.mw-mmv-filepage-buttons .mw-mmv-view-config{display:block;line-height:inherit}.mw-mmv-filepage-buttons .mw-mmv-view-expanded.mw-ui-icon:before{background-image:url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%20768%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22%23777%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M851.2%2071.6L690.7%20232.1l-40.1-40.3-9.6%20164.8%20164.8-9.3-40.3-40.4L926%20146.4l58.5%2058.5L997.6%200%20792.7%2013.1%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M769.6%2089.3H611.9l70.9%2070.8%207.9%207.5m-47.1%20234.6l-51.2%203%203-51.2%209.4-164.4%205.8-100.3H26.4V768h883.1V387l-100.9%205.8-165%209.4zM813.9%20678H113.6l207.2-270.2%2031.5-12.9L548%20599.8l105.9-63.2%20159.8%20140.8.2.6zm95.6-291.9V228l-79.1%2078.9%207.8%207.9%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A)}.mw-mmv-filepage-buttons .mw-mmv-view-config.mw-ui-icon:before{background-image:url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%20768%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M897%20454.6V313.4L810.4%20299c-6.4-23.3-16-45.7-27.3-65.8l50.5-71.4-99.4-100.2-71.4%2050.5c-20.9-11.2-42.5-20.9-65.8-27.3L582.6-1H441.4L427%2085.6c-23.3%206.4-45.7%2016-65.8%2027.3l-71.4-50.5-100.3%2099.5%2050.5%2071.4c-11.2%2020.9-20.9%2042.5-27.3%2066.6L127%20313.4v141.2l85.8%2014.4c6.4%2023.3%2016%2045.7%2027.3%2066.6L189.6%20607l99.5%2099.5%2071.4-50.5c20.9%2011.2%2042.5%2020.9%2066.6%2027.3l14.4%2085.8h141.2l14.4-86.6c23.3-6.4%2045.7-16%2065.8-27.3l71.4%2050.5%2099.5-99.5-50.5-71.4c11.2-20.9%2020.9-42.5%2027.3-66.6l86.4-13.6zm-385%2077c-81.8%200-147.6-66.6-147.6-147.6%200-81.8%2066.6-147.6%20147.6-147.6S659.6%20302.2%20659.6%20384%20593.8%20531.6%20512%20531.6z%22%20fill%3D%22%23777%22%2F%3E%0A%3C%2Fsvg%3E%0A);opacity:0.75}.mw-mmv-filepage-buttons .mw-mmv-view-config.mw-ui-icon:before:hover{opacity:1}
+.ve-activated #toc,.ve-activated #siteNotice,.ve-activated .mw-indicators,.ve-activated #t-print,.ve-activated #t-permalink,.ve-activated #p-coll-print_export,.ve-activated #t-cite,.ve-deactivating .ve-ui-surface,.ve-active .ve-init-mw-desktopArticleTarget-editableContent{display:none} .ve-activating .ve-ui-surface{height:0;padding:0 !important; overflow:hidden} .ve-loading #content > :not( .ve-init-mw-desktopArticleTarget-loading-overlay ), .ve-activated .ve-init-mw-desktopArticleTarget-uneditableContent{  pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none; opacity:0.5}.ve-activated .catlinks{cursor:pointer}.ve-activated .catlinks a{opacity:1} .ve-activated #content{position:relative} .ve-init-mw-desktopArticleTarget-loading-overlay{position:absolute;left:0;right:0;z-index:1;margin-top:-0.5em}.ve-init-mw-desktopArticleTarget-progress{height:1em;overflow:hidden;margin:0 25%}.ve-init-mw-desktopArticleTarget-progress-bar{height:1em;width:0} .mw-editsection{white-space:nowrap; unicode-bidi:-moz-isolate;unicode-bidi:-webkit-isolate;unicode-bidi:isolate}.mw-editsection-divider{color:#555} .ve-init-mw-desktopArticleTarget-progress{height:0.75em;border:1px solid #36c;background:#fff;border-radius:2px;box-shadow:0 0.1em 0 0 rgba( 0,0,0,0.15 )}.ve-init-mw-desktopArticleTarget-progress-bar{height:0.75em;background:#36c}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Cartesian_product_%20Wikipedia_files/load_002.css">
+<meta name="generator" content="MediaWiki 1.29.0-wmf.6">
+<meta name="referrer" content="origin-when-cross-origin">
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Cartesian_product">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit">
+<link rel="edit" title="Edit this page" href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit">
+<link rel="apple-touch-icon" href="https://en.wikipedia.org/static/apple-touch/wikipedia.png">
+<link rel="shortcut icon" href="https://en.wikipedia.org/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://en.wikipedia.org/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://en.wikipedia.org/w/api.php?action=rsd">
+<link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Cartesian_product">
+<link rel="dns-prefetch" href="https://login.wikimedia.org/">
+<link rel="dns-prefetch" href="https://meta.wikimedia.org/">
+<script src="Cartesian_product_%20Wikipedia_files/load.php"></script></head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Cartesian_product rootpage-Cartesian_product skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><div id="centralNotice"></div><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Cartesian product</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><script>function mfTempOpenSection(id){var block=document.getElementById("mf-section-"+id);block.className+=" open-block";block.previousSibling.className+=" open-block";}</script><div role="note" class="hatnote">"Cartesian square" redirects here. For Cartesian squares in category theory, see <a href="https://en.wikipedia.org/wiki/Cartesian_square_%28category_theory%29" class="mw-redirect" title="Cartesian square (category theory)">Cartesian square (category theory)</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:Cartesian_Product_qtl1.svg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-Cartesian_Product_qtl1.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cartesian_Product_qtl1.svg/330px-Cartesian_Product_qtl1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Cartesian_Product_qtl1.svg/440px-Cartesian_Product_qtl1.svg.png 2x" data-file-width="501" data-file-height="381" width="220" height="167"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Cartesian_Product_qtl1.svg" class="internal" title="Enlarge"></a></div>
+Cartesian product <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>A</mi>
+          <mo>×<!-- × --></mo>
+          <mi>B</mi>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle A\times B}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/49f62aecfe41761e7cdbfe1213a5eb513a9875be.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:3.781ex; height:1.843ex;" alt="\scriptstyle A\times B"></span> of the sets <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>A</mi>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mi>x</mi>
+          <mo>,</mo>
+          <mi>y</mi>
+          <mo>,</mo>
+          <mi>z</mi>
+          <mo fence="false" stretchy="false">}</mo>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle A=\{x,y,z\}}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/6bbe7659566a9b115f5c338ae6d711a7605b0d69.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:7.663ex; height:2.176ex;" alt="\scriptstyle A=\{x,y,z\}"></span> and <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mstyle displaystyle="false" scriptlevel="1">
+          <mi>B</mi>
+          <mo>=</mo>
+          <mo fence="false" stretchy="false">{</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>2</mn>
+          <mo>,</mo>
+          <mn>3</mn>
+          <mo fence="false" stretchy="false">}</mo>
+        </mstyle>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \scriptstyle B=\{1,2,3\}}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/bc27cf383141db2d60a562a53ba2e09d9bab65d1.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:7.617ex; height:2.176ex;" alt="\scriptstyle B=\{1,2,3\}"></span></div>
+</div>
+</div>
+<p>In <a href="https://en.wikipedia.org/wiki/Mathematics" title="Mathematics">mathematics</a>, a <b>Cartesian product</b> is a <a href="https://en.wikipedia.org/wiki/Mathematical_operation" class="mw-redirect" title="Mathematical operation">mathematical operation</a> that returns a <a href="https://en.wikipedia.org/wiki/Set_%28mathematics%29" title="Set (mathematics)">set</a> (or <b>product set</b> or simply <b>product</b>) from multiple sets. That is, for sets <i>A</i> and <i>B</i>, the Cartesian product <span class="nowrap"><i>A</i> × <i>B</i></span> is the set of all <a href="https://en.wikipedia.org/wiki/Ordered_pair" title="Ordered pair">ordered pairs</a> <span class="nowrap">(<i>a</i>, <i>b</i>)</span> where <span class="nowrap"><i>a</i> ∈ <i>A</i></span> and <span class="nowrap"><i>b</i> ∈ <i>B</i></span>. Products can be specified using <a href="https://en.wikipedia.org/wiki/Set-builder_notation" title="Set-builder notation">set-builder notation</a>, e.g.</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo>=</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mspace width="thinmathspace"></mspace>
+        <mo stretchy="false">(</mo>
+        <mi>a</mi>
+        <mo>,</mo>
+        <mi>b</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∣<!-- ∣ --></mo>
+        <mi>a</mi>
+        <mo>∈<!-- ∈ --></mo>
+        <mi>A</mi>
+        <mtext>&nbsp;</mtext>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>&nbsp;and&nbsp;</mtext>
+        </mrow>
+        <mtext>&nbsp;</mtext>
+        <mi>b</mi>
+        <mo>∈<!-- ∈ --></mo>
+        <mi>B</mi>
+        <mspace width="thinmathspace"></mspace>
+        <mo fence="false" stretchy="false">}</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A\times B=\{\,(a,b)\mid a\in A\ {\mbox{ and }}\ b\in B\,\}.}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/bcb60e49395e0c13e866a0bcf98dc0975802a57f.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:37.915ex; height:2.843ex;" alt="A\times B=\{\,(a,b)\mid a\in A\ {\mbox{ and }}\ b\in B\,\}."></span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></dd>
+</dl>
+<p>A table can be created by taking the Cartesian product of a set of rows and a set of columns. If the Cartesian product <span class="nowrap"><i>rows</i> × <i>columns</i></span> is taken, the cells of the table contain ordered pairs of the form <span class="nowrap">(row value, column value)</span>.</p>
+<p>More generally, a Cartesian product of <i>n</i> sets, also known as an <b><i>n</i>-fold Cartesian product</b>, can be represented by an array of <i>n</i> dimensions, where each element is an <i>n</i>-<a href="https://en.wikipedia.org/wiki/Tuple" title="Tuple">tuple</a>. An ordered pair is a <a href="https://en.wikipedia.org/wiki/Tuple#Names_for_tuples_of_specific_lengths" title="Tuple">2-tuple or <b>couple</b></a>.</p>
+<p>The Cartesian product is named after <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> whose formulation of <a href="https://en.wikipedia.org/wiki/Analytic_geometry" title="Analytic geometry">analytic geometry</a> gave rise to the concept, which is further generalized in terms of <a href="https://en.wikipedia.org/wiki/Direct_product" title="Direct product">direct product</a>.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+<span class="toctoggle">&nbsp;[<a role="button" tabindex="0" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Examples"><span class="tocnumber">1</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#A_deck_of_cards"><span class="tocnumber">1.1</span> <span class="toctext">A deck of cards</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#A_two-dimensional_coordinate_system"><span class="tocnumber">1.2</span> <span class="toctext">A two-dimensional coordinate system</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Most_common_implementation_.28set_theory.29"><span class="tocnumber">2</span> <span class="toctext">Most common implementation (set theory)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Non-commutativity_and_non-associativity"><span class="tocnumber">2.1</span> <span class="toctext">Non-commutativity and non-associativity</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Intersections.2C_unions.2C_and_subsets"><span class="tocnumber">2.2</span> <span class="toctext">Intersections, unions, and subsets</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Cardinality"><span class="tocnumber">2.3</span> <span class="toctext">Cardinality</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#n-ary_product"><span class="tocnumber">3</span> <span class="toctext"><i>n</i>-ary product</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Cartesian_power"><span class="tocnumber">3.1</span> <span class="toctext">Cartesian power</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Finite_n-ary_product"><span class="tocnumber">3.2</span> <span class="toctext">Finite n-ary product</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Infinite_products"><span class="tocnumber">3.3</span> <span class="toctext">Infinite products</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Other_forms"><span class="tocnumber">4</span> <span class="toctext">Other forms</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Abbreviated_form"><span class="tocnumber">4.1</span> <span class="toctext">Abbreviated form</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Cartesian_product_of_functions"><span class="tocnumber">4.2</span> <span class="toctext">Cartesian product of functions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Definitions_outside_of_set_theory"><span class="tocnumber">5</span> <span class="toctext">Definitions outside of set theory</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Category_theory"><span class="tocnumber">5.1</span> <span class="toctext">Category theory</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Graph_theory"><span class="tocnumber">5.2</span> <span class="toctext">Graph theory</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=1" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="A_deck_of_cards">A deck of cards</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=2" title="Edit section: A deck of cards">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:Piatnikcards.jpg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-Piatnikcards.jpg" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Piatnikcards.jpg/330px-Piatnikcards.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/Piatnikcards.jpg/440px-Piatnikcards.jpg 2x" data-file-width="3008" data-file-height="1421" width="220" height="104"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Piatnikcards.jpg" class="internal" title="Enlarge"></a></div>
+Standard 52-card deck</div>
+</div>
+</div>
+<p>An illustrative example is the <a href="https://en.wikipedia.org/wiki/Standard_52-card_deck" title="Standard 52-card deck">standard 52-card deck</a>. The <a href="https://en.wikipedia.org/wiki/Playing_cards#Anglo-American" class="mw-redirect" title="Playing cards">standard playing card</a> ranks {A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2} form a 13-element set. The card suits <span class="nowrap">{♠, <span style="color:#c00000">♥</span>, <span style="color:#c00000">♦</span>, ♣}</span> form a four-element set. The Cartesian product of these sets returns a 52-element set consisting of 52 <a href="https://en.wikipedia.org/wiki/Ordered_pairs" class="mw-redirect" title="Ordered pairs">ordered pairs</a>, which correspond to all 52 possible playing cards.</p>
+<p><span class="nowrap"><i>Ranks</i> × <i>Suits</i></span> returns a set of the form {(A, ♠), (A, <span style="color:#c00000">♥</span>), (A, <span style="color:#c00000">♦</span>), (A, ♣), (K, ♠), ..., (3, ♣), (2, ♠), (2, <span style="color:#c00000">♥</span>), (2, <span style="color:#c00000">♦</span>), (2, ♣)}.</p>
+<p><span class="nowrap"><i>Suits</i> × <i>Ranks</i></span> returns a set of the form {(♠, A), (♠, K), (♠, Q), (♠, J), (♠, 10), ..., (♣, 6), (♣, 5), (♣, 4), (♣, 3), (♣, 2)}.</p>
+<p>Both sets are distinct, even disjoint.</p>
+<h3><span class="mw-headline" id="A_two-dimensional_coordinate_system">A two-dimensional coordinate system</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=3" title="Edit section: A two-dimensional coordinate system">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:Cartesian-coordinate-system.svg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-Cartesian-coordinate-system.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/330px-Cartesian-coordinate-system.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cartesian-coordinate-system.svg/440px-Cartesian-coordinate-system.svg.png 2x" data-file-width="300" data-file-height="300" width="220" height="220"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:Cartesian-coordinate-system.svg" class="internal" title="Enlarge"></a></div>
+Cartesian coordinates of example points</div>
+</div>
+</div>
+<p>The main historical example is the <a href="https://en.wikipedia.org/wiki/Cartesian_plane" class="mw-redirect" title="Cartesian plane">Cartesian plane</a> in <a href="https://en.wikipedia.org/wiki/Analytic_geometry" title="Analytic geometry">analytic geometry</a>.
+ In order to represent geometrical shapes in a numerical way and extract
+ numerical information from shapes' numerical representations, <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> assigned to each point in the plane a pair of <a href="https://en.wikipedia.org/wiki/Real_number" title="Real number">real numbers</a>, called its coordinates. Usually, such a pair's first and second components are called its <i>x</i> and <i>y</i> coordinates, respectively; cf. picture. The set of all such pairs (i.e. the Cartesian product <span class="nowrap">ℝ×ℝ</span> with ℝ denoting the real numbers) is thus assigned to the set of all points in the plane.</p>
+<h2><span class="mw-headline" id="Most_common_implementation_.28set_theory.29">Most common implementation (set theory)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=4" title="Edit section: Most common implementation (set theory)">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="note" class="hatnote">Main article: <a href="https://en.wikipedia.org/wiki/Implementation_of_mathematics_in_set_theory" title="Implementation of mathematics in set theory">Implementation of mathematics in set theory</a></div>
+<p>A formal definition of the Cartesian product from <a href="https://en.wikipedia.org/wiki/Set_theory" title="Set theory">set-theoretical</a> principles follows from a definition of <a href="https://en.wikipedia.org/wiki/Ordered_pair" title="Ordered pair">ordered pair</a>. The most common definition of ordered pairs, the <a href="https://en.wikipedia.org/wiki/Ordered_pair#Kuratowski_definition" title="Ordered pair">Kuratowski definition</a>, is <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>y</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mi>x</mi>
+        <mo fence="false" stretchy="false">}</mo>
+        <mo>,</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>y</mi>
+        <mo fence="false" stretchy="false">}</mo>
+        <mo fence="false" stretchy="false">}</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (x,y)=\{\{x\},\{x,y\}\}}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/2e04588c90083e1dd7520b3beabbb0a87342ed2a.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:21.462ex; height:2.843ex;" alt="(x,y)=\{\{x\},\{x,y\}\}"></span>. Note that, under this definition, <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>X</mi>
+        <mo>×<!-- × --></mo>
+        <mi>Y</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">P</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">P</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi>X</mi>
+        <mo>∪<!-- ∪ --></mo>
+        <mi>Y</mi>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X\times Y\subseteq {\mathcal {P}}({\mathcal {P}}(X\cup Y))}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/ef5938c559eded068d5b0d2b7a7a40f7982eda89.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:23.19ex; height:2.843ex;" alt="X\times Y\subseteq {\mathcal {P}}({\mathcal {P}}(X\cup Y))"></span>, where <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi class="MJX-tex-caligraphic" mathvariant="script">P</mi>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\mathcal {P}}}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/10d6ec962de5797ba4f161c40e66dca74ae95cc6.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.714ex; height:2.176ex;" alt="{\mathcal {P}}"></span> represents the <a href="https://en.wikipedia.org/wiki/Power_set" title="Power set">power set</a>. Therefore, the existence of the Cartesian product of any two sets in <a href="https://en.wikipedia.org/wiki/ZFC" class="mw-redirect" title="ZFC">ZFC</a> follows from the axioms of <a href="https://en.wikipedia.org/wiki/Axiom_of_pairing" title="Axiom of pairing">pairing</a>, <a href="https://en.wikipedia.org/wiki/Axiom_of_union" title="Axiom of union">union</a>, <a href="https://en.wikipedia.org/wiki/Axiom_of_power_set" title="Axiom of power set">power set</a>, and <a href="https://en.wikipedia.org/wiki/Axiom_schema_of_specification" title="Axiom schema of specification">specification</a>. Since <a href="https://en.wikipedia.org/wiki/Function_%28mathematics%29" title="Function (mathematics)">functions</a> are usually defined as a special case of <a href="https://en.wikipedia.org/wiki/Relation_%28mathematics%29" class="mw-redirect" title="Relation (mathematics)">relations</a>,
+ and relations are usually defined as subsets of the Cartesian product, 
+the definition of the two-set Cartesian product is necessarily prior to 
+most other definitions.</p>
+<h3><span class="mw-headline" id="Non-commutativity_and_non-associativity">Non-commutativity and non-associativity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=5" title="Edit section: Non-commutativity and non-associativity">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Let <i>A</i>, <i>B</i>, <i>C</i>, and <i>D</i> be sets.</p>
+<p>The Cartesian product <span class="nowrap"><i>A</i> × <i>B</i></span> is not <a href="https://en.wikipedia.org/wiki/Commutative" class="mw-redirect" title="Commutative">commutative</a>,</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo>≠<!-- ≠ --></mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>A</mi>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A\times B\neq B\times A,}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/298d14a15d0185ba56a4cc0843c05f5338fd2042.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:16.524ex; height:2.843ex;" alt="A\times B\neq B\times A,"></span></dd>
+</dl>
+<p>because the <a href="https://en.wikipedia.org/wiki/Ordered_pair" title="Ordered pair">ordered pairs</a> are reversed except if at least one of the following conditions is satisfied:<sup id="cite_ref-cnx_3-0" class="reference"><a href="#cite_note-cnx-3">[3]</a></sup></p>
+<ul>
+<li><i>A</i> is equal to <i>B</i>, or</li>
+<li><i>A</i> or <i>B</i> is the <a href="https://en.wikipedia.org/wiki/Empty_set" title="Empty set">empty set</a>.</li>
+</ul>
+<p>For example:</p>
+<dl>
+<dd><i>A</i> = {1,2}; <i>B</i> = {3,4}
+<dl>
+<dd><i>A</i> × <i>B</i> = {1,2} × {3,4} = {(1,3), (1,4), (2,3), (2,4)}</dd>
+<dd><i>B</i> × <i>A</i> = {3,4} × {1,2} = {(3,1), (3,2), (4,1), (4,2)}</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd><i>A</i> = <i>B</i> = {1,2}
+<dl>
+<dd><i>A</i> × <i>B</i> = <i>B</i> × <i>A</i> = {1,2} × {1,2} = {(1,1), (1,2), (2,1), (2,2)}</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd><i>A</i> = {1,2}; <i>B</i> = ∅
+<dl>
+<dd><i>A</i> × <i>B</i> = {1,2} × ∅ = ∅</dd>
+<dd><i>B</i> × <i>A</i> = ∅ × {1,2} = ∅</dd>
+</dl>
+</dd>
+</dl>
+<p><br>
+Strictly speaking, the Cartesian product is not <a href="https://en.wikipedia.org/wiki/Associative" class="mw-redirect" title="Associative">associative</a> (unless one of the involved sets is empty).</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo>≠<!-- ≠ --></mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\times B)\times C\neq A\times (B\times C)}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/af4db9124b350a6b7bf22af04347b141aa848eae.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:28.782ex; height:2.843ex;" alt="(A\times B)\times C\neq A\times (B\times C)"></span></dd>
+</dl>
+<p>If for example <i>A</i> = {1}, then (<i>A</i> × <i>A</i>) × <i>A</i> = { ((1,1),1) } ≠ { (1,(1,1)) } = <i>A</i> × (<i>A</i> × <i>A</i>).</p>
+<h3><span class="mw-headline" id="Intersections.2C_unions.2C_and_subsets">Intersections, unions, and subsets</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=6" title="Edit section: Intersections, unions, and subsets">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table style="float:right">
+<tbody><tr>
+<td>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:CartDistr_svg.svg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-CartDistr_svg.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CartDistr_svg.svg/330px-CartDistr_svg.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CartDistr_svg.svg/440px-CartDistr_svg.svg.png 2x" data-file-width="425" data-file-height="319" width="220" height="165"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:CartDistr_svg.svg" class="internal" title="Enlarge"></a></div>
+Example sets <span style="color:#0000c0"><i>A</i></span>={<i>y</i>∈<a href="https://en.wikipedia.org/wiki/Real_numbers" class="mw-redirect" title="Real numbers">ℝ</a>:1≤<i>y</i>≤4}, <span style="color:#c00000"><i>B</i></span>={<i>x</i>∈ℝ:2≤<i>x</i>≤5}, and <span style="color:#00c000"><i>C</i></span>={<i>x</i>∈ℝ:4≤<i>x</i>≤7}, demonstrating <i>A</i>×(<i>B</i>∩<i>C</i>)=(<i>A</i>×<i>B</i>)∩(<i>A</i>×<i>C</i>), <i>A</i>×(<i>B</i>∪<i>C</i>)=(<i>A</i>×<i>B</i>)∪(<i>A</i>×<i>C</i>), and <i>A</i>×(<i>B</i>\<i>C</i>)=(<i>A</i>×<i>B</i>)\(<i>A</i>×<i>C</i>).</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style="float:right">
+<tbody><tr>
+<td>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:CartUnion_svg.svg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-CartUnion_svg.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/CartUnion_svg.svg/330px-CartUnion_svg.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/87/CartUnion_svg.svg/440px-CartUnion_svg.svg.png 2x" data-file-width="425" data-file-height="319" width="220" height="165"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:CartUnion_svg.svg" class="internal" title="Enlarge"></a></div>
+(<i>A</i>∪<i>B</i>)×(<i>C</i>∪<i>D</i>)≠(<i>A</i>×<i>C</i>)∪(<i>B</i>×<i>D</i>) can be seen from the same example.</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style="float:right">
+<tbody><tr>
+<td>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="https://en.wikipedia.org/wiki/File:CartInts_svg.svg" class="image"><img alt="" src="Cartesian_product_%20Wikipedia_files/220px-CartInts_svg.png" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/CartInts_svg.svg/330px-CartInts_svg.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1f/CartInts_svg.svg/440px-CartInts_svg.svg.png 2x" data-file-width="425" data-file-height="319" width="220" height="165"></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="https://en.wikipedia.org/wiki/File:CartInts_svg.svg" class="internal" title="Enlarge"></a></div>
+Example sets <span style="color:#c00000"><i>A</i></span>={<i>x</i>∈ℝ:2≤<i>x</i>≤5}, <span style="color:#00c000"><i>B</i></span>={<i>x</i>∈ℝ:3≤<i>x</i>≤7}, <span style="color:#c00000"><i>C</i></span>={<i>y</i>∈ℝ:1≤<i>y</i>≤3}, and <span style="color:#00c000"><i>D</i></span>={<i>y</i>∈ℝ:2≤<i>y</i>≤4}, demonstrating (<i>A</i>∩<i>B</i>)×(<i>C</i>∩<i>D</i>)=(<i>A</i>×<i>C</i>)∩<i>(B</i>×<i>D</i>).</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>
+<p>The Cartesian product behaves nicely with respect to <a href="https://en.wikipedia.org/wiki/Intersection_%28set_theory%29" title="Intersection (set theory)">intersections</a>, cf. left picture.</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>∩<!-- ∩ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>C</mi>
+        <mo>∩<!-- ∩ --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∩<!-- ∩ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\cap B)\times (C\cap D)=(A\times C)\cap (B\times D)}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/80fcc10c9d5e8cae71c50d578881faeb3c518430.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:41.24ex; height:2.843ex;" alt="(A\cap B)\times (C\cap D)=(A\times C)\cap (B\times D)"></span><sup id="cite_ref-planetmath_4-0" class="reference"><a href="#cite_note-planetmath-4">[4]</a></sup></dd>
+</dl>
+<p>In most cases the above statement is not true if we replace intersection with <a href="https://en.wikipedia.org/wiki/Union_%28set_theory%29" title="Union (set theory)">union</a>, cf. middle picture.</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>∪<!-- ∪ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>C</mi>
+        <mo>∪<!-- ∪ --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo>≠<!-- ≠ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\cup B)\times (C\cup D)\neq (A\times C)\cup (B\times D)}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/b71587d69d860f6dd4e3aefd0f9dd13bbbd9b639.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:41.24ex; height:2.843ex;" alt="(A\cup B)\times (C\cup D)\neq (A\times C)\cup (B\times D)"></span></dd>
+</dl>
+<p>In fact, we have that:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">[</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">]</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">[</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>∩<!-- ∩ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>C</mi>
+        <mo>∪<!-- ∪ --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">]</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">[</mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mi>A</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">]</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\times 
+C)\cup (B\times D)=[(A\setminus B)\times C]\cup [(A\cap B)\times (C\cup 
+D)]\cup [(B\setminus A)\times D]}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/67cfa315894265914c23ed2d555d05e6255d98a4.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:74.91ex; height:2.843ex;" alt="(A\times C)\cup (B\times D)=[(A\setminus B)\times C]\cup [(A\cap B)\times (C\cup D)]\cup [(B\setminus A)\times D]"></span></dd>
+</dl>
+<p>For the set difference we also have the following identity:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">[</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>C</mi>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mi>D</mi>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">]</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">[</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">]</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\times C)\setminus (B\times D)=[A\times (C\setminus D)]\cup [(A\setminus B)\times C]}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/401c029889c8cdaaa16d20a38c311158b98cfd41.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:51.68ex; height:2.843ex;" alt="(A\times C)\setminus (B\times D)=[A\times (C\setminus D)]\cup [(A\setminus B)\times C]"></span></dd>
+</dl>
+<p>Here are some rules demonstrating distributivity with other operators (cf. right picture):<sup id="cite_ref-cnx_3-1" class="reference"><a href="#cite_note-cnx-3">[3]</a></sup></p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>∩<!-- ∩ --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∩<!-- ∩ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A\times (B\cap C)=(A\times B)\cap (A\times C),}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/15b4d48fe69f9fd00a66670e1fc13c2834a4e216.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:35.359ex; height:2.843ex;" alt="A\times (B\cap C)=(A\times B)\cap (A\times C),"></span></dd>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo>∪<!-- ∪ --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A\times (B\cup C)=(A\times B)\cup (A\times C),}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/5ae618ba12285f74cfd1cfd86762617809c1b4fd.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:35.359ex; height:2.843ex;" alt="A\times (B\cup C)=(A\times B)\cup (A\times C),"></span></dd>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>B</mi>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo class="MJX-variant">∖<!-- ∖ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A\times (B\setminus C)=(A\times B)\setminus (A\times C),}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/11c2d7a4c945abfd3844a07832b81933fae8ad98.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:34.583ex; height:2.843ex;" alt="A\times (B\setminus C)=(A\times B)\setminus (A\times C),"></span></dd>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <msup>
+          <mo stretchy="false">)</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <msup>
+          <mi>A</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mi>B</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">(</mo>
+        <msup>
+          <mi>A</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo stretchy="false">)</mo>
+        <mo>∪<!-- ∪ --></mo>
+        <mo stretchy="false">(</mo>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <msup>
+          <mi>B</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (A\times 
+B)^{\complement }=(A^{\complement }\times B^{\complement })\cup 
+(A^{\complement }\times B)\cup (A\times B^{\complement }),}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/3fe2358c8b271f4243945bf61fae64897599fa97.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:47.097ex; height:3.509ex;" alt="{\displaystyle (A\times B)^{\complement }=(A^{\complement }\times B^{\complement })\cup (A^{\complement }\times B)\cup (A\times B^{\complement }),}"></span><sup id="cite_ref-planetmath_4-1" class="reference"><a href="#cite_note-planetmath-4">[4]</a></sup></dd>
+</dl>
+<p>where <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mi>A</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>∁<!-- ∁ --></mi>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle A^{\complement }}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/e02346e3f6e10452080e6f3a7326e0aa2185dc2a.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:2.815ex; height:3.009ex;" alt="{\displaystyle A^{\complement }}"></span> denotes the <a href="https://en.wikipedia.org/wiki/Absolute_complement" class="mw-redirect" title="Absolute complement">absolute complement</a> of <i>A</i>.</p>
+<p>Other properties related with <a href="https://en.wikipedia.org/wiki/Subset" title="Subset">subsets</a> are:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>if&nbsp;</mtext>
+        </mrow>
+        <mi>A</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mi>B</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>&nbsp;then&nbsp;</mtext>
+        </mrow>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mi>B</mi>
+        <mo>×<!-- × --></mo>
+        <mi>C</mi>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\text{if }}A\subseteq B{\text{ then }}A\times C\subseteq B\times C,}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/2c99d4975f3294ac813b2db521f131913b112446.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.671ex; width:30.872ex; height:2.676ex;" alt="{\text{if }}A\subseteq B{\text{ then }}A\times C\subseteq B\times C,"></span></dd>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>if both&nbsp;</mtext>
+        </mrow>
+        <mi>A</mi>
+        <mo>,</mo>
+        <mi>B</mi>
+        <mo>≠<!-- ≠ --></mo>
+        <mi mathvariant="normal">∅<!-- ∅ --></mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>&nbsp;then&nbsp;</mtext>
+        </mrow>
+        <mi>A</mi>
+        <mo>×<!-- × --></mo>
+        <mi>B</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mi>C</mi>
+        <mo>×<!-- × --></mo>
+        <mi>D</mi>
+        <mspace width="thickmathspace"></mspace>
+        <mo stretchy="false">⟺<!-- ⟺ --></mo>
+        <mspace width="thickmathspace"></mspace>
+        <mi>A</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mi>C</mi>
+        <mo>∧<!-- ∧ --></mo>
+        <mi>B</mi>
+        <mo>⊆<!-- ⊆ --></mo>
+        <mi>D</mi>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\text{if 
+both }}A,B\neq \emptyset {\text{ then }}A\times B\subseteq C\times D\iff
+ A\subseteq C\land B\subseteq D.}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/93081eeb524b588554e4de4afb1257f71c617c82.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:61.48ex; height:2.843ex;" alt="{\text{if both }}A,B\neq \emptyset {\text{ then }}A\times B\subseteq C\times D\iff A\subseteq C\land B\subseteq D."></span><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></dd>
+</dl>
+<h3><span class="mw-headline" id="Cardinality">Cardinality</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=7" title="Edit section: Cardinality">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div role="note" class="hatnote">See also: <a href="https://en.wikipedia.org/wiki/Cardinal_arithmetic" class="mw-redirect" title="Cardinal arithmetic">Cardinal arithmetic</a></div>
+<p>The <a href="https://en.wikipedia.org/wiki/Cardinality" title="Cardinality">cardinality</a> of a set is the number of elements of the set. For example, defining two sets: <span class="nowrap"><i>A</i> = {a, b</span>} and <span class="nowrap"><i>B</i> = {5, 6}.</span> Both set <i>A</i> and set <i>B</i> consist of two elements each. Their Cartesian product, written as <span class="nowrap"><i>A</i> × <i>B</i></span>, results in a new set which has the following elements:</p>
+<dl>
+<dd><i>A</i> × <i>B</i> = {(a,5), (a,6), (b,5), (b,6)}.</dd>
+</dl>
+<p>Each element of <i>A</i> is paired with each element of <i>B</i>. 
+Each pair makes up one element of the output set. The number of values 
+in each element of the resulting set is equal to the number of sets 
+whose cartesian product is being taken; 2 in this case. The cardinality 
+of the output set is equal to the product of the cardinalities of all 
+the input sets. That is,</p>
+<dl>
+<dd>|<i>A</i> × <i>B</i>| = |<i>A</i>| · |<i>B</i>|.</dd>
+</dl>
+<p>Similarly</p>
+<dl>
+<dd>|<i>A</i> × <i>B</i> × <i>C</i>| = |<i>A</i>| · |<i>B</i>| · |<i>C</i>|</dd>
+</dl>
+<p>and so on.</p>
+<p>The set <span class="nowrap"><i>A</i> × <i>B</i></span> is <a href="https://en.wikipedia.org/wiki/Infinite_set" title="Infinite set">infinite</a> if either <i>A</i> or <i>B</i> is infinite and the other set is not the empty set.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup></p>
+<h2><span class="mw-headline" id="n-ary_product"><i>n</i>-ary product</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=8" title="Edit section: n-ary product">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Cartesian_power">Cartesian power</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=9" title="Edit section: Cartesian power">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The <b>Cartesian square</b> (or <b>binary Cartesian product</b>) of a set <i>X</i> is the Cartesian product <span class="nowrap"><i>X</i><sup>2</sup> = <i>X</i> × <i>X</i></span>. An example is the 2-dimensional <a href="https://en.wikipedia.org/wiki/Plane_%28mathematics%29" class="mw-redirect" title="Plane (mathematics)">plane</a> <span class="nowrap"><b>R</b><sup>2</sup> = <b>R</b> × <b>R</b></span> where <b>R</b> is the set of <a href="https://en.wikipedia.org/wiki/Real_number" title="Real number">real numbers</a>: <b>R</b><sup>2</sup> is the set of all points <span class="nowrap">(<i>x</i>,<i>y</i>)</span> where <i>x</i> and <i>y</i> are real numbers (see the <a href="https://en.wikipedia.org/wiki/Cartesian_coordinate_system" title="Cartesian coordinate system">Cartesian coordinate system</a>).</p>
+<p>The <b>cartesian power</b> of a set <i>X</i> can be defined as:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msup>
+        <mo>=</mo>
+        <munder>
+          <mrow class="MJX-TeXAtom-OP">
+            <munder>
+              <mrow>
+                <mi>X</mi>
+                <mo>×<!-- × --></mo>
+                <mi>X</mi>
+                <mo>×<!-- × --></mo>
+                <mo>⋯<!-- ⋯ --></mo>
+                <mo>×<!-- × --></mo>
+                <mi>X</mi>
+              </mrow>
+              <mo>⏟<!-- ⏟ --></mo>
+            </munder>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </munder>
+        <mo>=</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>…<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mtext>&nbsp;</mtext>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mo stretchy="false">|</mo>
+        </mrow>
+        <mtext>&nbsp;</mtext>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>∈<!-- ∈ --></mo>
+        <mi>X</mi>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtext>&nbsp;for all&nbsp;</mtext>
+        </mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mo>…<!-- … --></mo>
+        <mo>,</mo>
+        <mi>n</mi>
+        <mo fence="false" stretchy="false">}</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle 
+X^{n}=\underbrace {X\times X\times \cdots \times X} _{n}=\{(x_{1},\ldots
+ ,x_{n})\ |\ x_{i}\in X{\text{ for all }}i=1,\ldots ,n\}.}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/4e03477d03e4d592f2e5f4eb479c4ffa275e27bb.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.671ex; width:69.283ex; height:5.676ex;" alt="X^{n}=\underbrace {X\times X\times \cdots \times X} _{n}=\{(x_{1},\ldots ,x_{n})\ |\ x_{i}\in X{\text{ for all }}i=1,\ldots ,n\}."></span></dd>
+</dl>
+<p>An example of this is <span class="nowrap"><b>R</b><sup>3</sup> = <b>R</b> × <b>R</b> × <b>R</b></span>, with <b>R</b> again the set of real numbers, and more generally <b>R</b><sup><i>n</i></sup>.</p>
+<p>The <i>n</i>-ary cartesian power of a set <i>X</i> is <a href="https://en.wikipedia.org/wiki/Isomorphism" title="Isomorphism">isomorphic</a> to the space of functions from an <i>n</i>-element set to <i>X</i>. As a special case, the 0-ary cartesian power of <i>X</i> may be taken to be a <a href="https://en.wikipedia.org/wiki/Singleton_set" class="mw-redirect" title="Singleton set">singleton set</a>, corresponding to the <a href="https://en.wikipedia.org/wiki/Empty_function" title="Empty function">empty function</a> with <a href="https://en.wikipedia.org/wiki/Codomain" title="Codomain">codomain</a> <i>X</i>.</p>
+<h3><span class="mw-headline" id="Finite_n-ary_product">Finite <var>n</var>-ary product</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=10" title="Edit section: Finite n-ary product">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>The Cartesian product can be generalized to the <b><i>n</i>-ary Cartesian product</b> over <i>n</i> sets <i>X</i><sub>1</sub>, ..., <i>X<sub>n</sub></i>:</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>×<!-- × --></mo>
+        <mo>⋯<!-- ⋯ --></mo>
+        <mo>×<!-- × --></mo>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mo fence="false" stretchy="false">{</mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+        <mo>…<!-- … --></mo>
+        <mo>,</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+        <mo>:</mo>
+        <msub>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>∈<!-- ∈ --></mo>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo fence="false" stretchy="false">}</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle X_{1}\times \cdots \times X_{n}=\{(x_{1},\ldots ,x_{n}):x_{i}\in X_{i}\}.}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/15eaf73b7f007d52740897486f640e7c30978148.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:42.4ex; height:2.843ex;" alt="X_{1}\times \cdots \times X_{n}=\{(x_{1},\ldots ,x_{n}):x_{i}\in X_{i}\}."></span></dd>
+</dl>
+<p>It is a set of <a href="https://en.wikipedia.org/wiki/Tuple" title="Tuple"><i>n</i>-tuples</a>. If tuples are defined as <a href="https://en.wikipedia.org/wiki/Tuple#Tuples_as_nested_ordered_pairs" title="Tuple">nested ordered pairs</a>, it can be identified to <span class="nowrap">(<i>X</i><sub>1</sub> × ... × <i>X<sub>n−1</sub></i>) × <i>X<sub>n</sub></i></span>.</p>
+<h3><span class="mw-headline" id="Infinite_products">Infinite products</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=11" title="Edit section: Infinite products">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>It is possible to define the Cartesian product of an arbitrary (possibly <a href="https://en.wikipedia.org/wiki/Infinity" title="Infinity">infinite</a>) <a href="https://en.wikipedia.org/wiki/Indexed_family" title="Indexed family">indexed family</a> of sets. If <i>I</i> is any <a href="https://en.wikipedia.org/wiki/Index_set" title="Index set">index set</a>, and <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo fence="false" stretchy="false">{</mo>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <msub>
+          <mo fence="false" stretchy="false">}</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>∈<!-- ∈ --></mo>
+            <mi>I</mi>
+          </mrow>
+        </msub>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \{X_{i}\}_{i\in I}}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/c0beca1beee1298c4b0545d7f554749ce2d7f36e.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:7.834ex; height:2.843ex;" alt="{\displaystyle \{X_{i}\}_{i\in I}}"></span> is a family of sets indexed by <i>I</i>, then the Cartesian product of the sets in <i>X</i> is defined to be</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <munder>
+          <mo>∏<!-- ∏ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>∈<!-- ∈ --></mo>
+            <mi>I</mi>
+          </mrow>
+        </munder>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow>
+          <mo>{</mo>
+          <mrow>
+            <mo fence="true" stretchy="true"></mo>
+            <mi>f</mi>
+            <mo>:</mo>
+            <mi>I</mi>
+            <mo stretchy="false">→<!-- → --></mo>
+            <munder>
+              <mo>⋃<!-- ⋃ --></mo>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+                <mo>∈<!-- ∈ --></mo>
+                <mi>I</mi>
+              </mrow>
+            </munder>
+            <msub>
+              <mi>X</mi>
+              <mrow class="MJX-TeXAtom-ORD">
+                <mi>i</mi>
+              </mrow>
+            </msub>
+            <mtext>&nbsp;</mtext>
+            <mo>|</mo>
+          </mrow>
+          <mtext>&nbsp;</mtext>
+          <mo stretchy="false">(</mo>
+          <mi mathvariant="normal">∀<!-- ∀ --></mi>
+          <mi>i</mi>
+          <mo stretchy="false">)</mo>
+          <mo stretchy="false">(</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>i</mi>
+          <mo stretchy="false">)</mo>
+          <mo>∈<!-- ∈ --></mo>
+          <msub>
+            <mi>X</mi>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi>i</mi>
+            </mrow>
+          </msub>
+          <mo stretchy="false">)</mo>
+          <mo>}</mo>
+        </mrow>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \prod _{i\in I}X_{i}=\left\{\left.f:I\to \bigcup _{i\in I}X_{i}\ \right|\ (\forall i)(f(i)\in X_{i})\right\},}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/23edd6dd683a32f28f67d0d28eaf624bab4021b2.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:45.301ex; height:7.509ex;" alt="{\displaystyle \prod _{i\in I}X_{i}=\left\{\left.f:I\to \bigcup _{i\in I}X_{i}\ \right|\ (\forall i)(f(i)\in X_{i})\right\},}"></span></dd>
+</dl>
+<p>that is, the set of all functions defined on the <a href="https://en.wikipedia.org/wiki/Index_set" title="Index set">index set</a> such that the value of the function at a particular index <i>i</i> is an element of <i>X<sub>i</sub></i>. Even if each of the <i>X<sub>i</sub></i> is nonempty, the Cartesian product may be empty if the <a href="https://en.wikipedia.org/wiki/Axiom_of_choice" title="Axiom of choice">axiom of choice</a> (which is equivalent to the statement that every such product is nonempty) is not assumed.</p>
+<p>For each <i>j</i> in <i>I</i>, the function</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>π<!-- π --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>:</mo>
+        <munder>
+          <mo>∏<!-- ∏ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>∈<!-- ∈ --></mo>
+            <mi>I</mi>
+          </mrow>
+        </munder>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">→<!-- → --></mo>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo>,</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \pi _{j}:\prod _{i\in I}X_{i}\to X_{j},}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/9ad18e7edcf27a9b3c9885bc399e679fbe077edf.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:17.443ex; height:5.676ex;" alt="\pi _{j}:\prod _{i\in I}X_{i}\to X_{j},"></span></dd>
+</dl>
+<p>defined by <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msub>
+          <mi>π<!-- π --></mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>j</mi>
+          </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi>f</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>j</mi>
+        <mo stretchy="false">)</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \pi _{j}(f)=f(j)}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/16ef2fa207f17b276d5a9c440c8330ac8120cddb.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -1.005ex; width:12.569ex; height:3.009ex;" alt="\pi _{j}(f)=f(j)"></span> is called the <b><i>j</i>th <a href="https://en.wikipedia.org/wiki/Projection_%28mathematics%29" title="Projection (mathematics)">projection map</a></b>.</p>
+<p>An important case is when the index set is <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">N</mi>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/fdf9a96b565ea202d0f4322e9195613fb26a9bed.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.689ex; height:2.176ex;" alt="\mathbb {N} "></span>, the <a href="https://en.wikipedia.org/wiki/Natural_numbers" class="mw-redirect" title="Natural numbers">natural numbers</a>: this Cartesian product is the set of all infinite sequences with the <i>i</i>th term in its corresponding set <i>X<sub>i</sub></i>. For example, each element of</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <munderover>
+          <mo>∏<!-- ∏ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="normal">∞<!-- ∞ --></mi>
+          </mrow>
+        </munderover>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">R</mi>
+        </mrow>
+        <mo>=</mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">R</mi>
+        </mrow>
+        <mo>×<!-- × --></mo>
+        <mrow class="MJX-TeXAtom-ORD">
+          <mi mathvariant="double-struck">R</mi>
+        </mrow>
+        <mo>×<!-- × --></mo>
+        <mo>⋯<!-- ⋯ --></mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \prod _{n=1}^{\infty }\mathbb {R} =\mathbb {R} \times \mathbb {R} \times \cdots }</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/4a211a7f15269873e5e07ce7b682aec66f806de0.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.005ex; width:20.106ex; height:7.009ex;" alt="\prod _{n=1}^{\infty }\mathbb {R} =\mathbb {R} \times \mathbb {R} \times \cdots "></span></dd>
+</dl>
+<p>can be visualized as a <a href="https://en.wikipedia.org/wiki/Euclidean_vector" title="Euclidean vector">vector</a> with countably infinite real number components. This set is frequently denoted <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="double-struck">R</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>ω<!-- ω --></mi>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{\omega }}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/e0881ff53d61be4b3ed806e41af0d2ffba29c09b.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:2.951ex; height:2.343ex;" alt="\mathbb {R} ^{\omega }"></span>, or <span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <msup>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi mathvariant="double-struck">R</mi>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mrow class="MJX-TeXAtom-ORD">
+              <mi mathvariant="double-struck">N</mi>
+            </mrow>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{\mathbb {N} }}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/2608c429068c69675f1144f0ba8249603a8ceaf4.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:3.115ex; height:2.676ex;" alt="\mathbb {R} ^{\mathbb {N} }"></span>.</p>
+<p>The special case <b>Cartesian exponentiation</b> occurs when all the factors <i>X<sub>i</sub></i> involved in the product are the same set <i>X</i>. In this case,</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <munder>
+          <mo>∏<!-- ∏ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>∈<!-- ∈ --></mo>
+            <mi>I</mi>
+          </mrow>
+        </munder>
+        <msub>
+          <mi>X</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+          </mrow>
+        </msub>
+        <mo>=</mo>
+        <munder>
+          <mo>∏<!-- ∏ --></mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>i</mi>
+            <mo>∈<!-- ∈ --></mo>
+            <mi>I</mi>
+          </mrow>
+        </munder>
+        <mi>X</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle \prod _{i\in I}X_{i}=\prod _{i\in I}X}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/d12cd53d15a26081fd13aba1a0afe46553147b0f.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -3.171ex; width:14.575ex; height:5.676ex;" alt="\prod _{i\in I}X_{i}=\prod _{i\in I}X"></span></dd>
+</dl>
+<p>is the set of all functions from <i>I</i> to <i>X</i>, and is frequently denoted <i>X<sup>I</sup></i>. This case is important in the study of <a href="https://en.wikipedia.org/wiki/Cardinal_exponentiation" class="mw-redirect" title="Cardinal exponentiation">cardinal exponentiation</a>.</p>
+<p>The definition of finite Cartesian products can be seen as a special 
+case of the definition for infinite products. In this interpretation, an
+ <i>n</i>-tuple can be viewed as a function on <span class="nowrap">{1, 2, ..., <i>n</i>}</span> that takes its value at <i>i</i> to be the <i>i</i>th element of the tuple (in some settings, this is taken as the very definition of an <i>n</i>-tuple).</p>
+<h2><span class="mw-headline" id="Other_forms">Other forms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=12" title="Edit section: Other forms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Abbreviated_form">Abbreviated form</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=13" title="Edit section: Abbreviated form">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If several sets are being multiplied together, e.g. <i>X</i><sub>1</sub>, <i>X</i><sub>2</sub>, <i>X</i><sub>3</sub>, …, then some authors<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> choose to abbreviate the Cartesian product as simply <big>×</big><i>X</i><sub><i>i</i></sub>.</p>
+<h3><span class="mw-headline" id="Cartesian_product_of_functions">Cartesian product of functions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=14" title="Edit section: Cartesian product of functions">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If <i>f</i> is a function from <i>A</i> to <i>B</i> and <i>g</i> is a function from <i>X</i> to <i>Y</i>, their <b>Cartesian product</b> <span class="nowrap"><i>f</i> × <i>g</i></span> is a function from <span class="nowrap"><i>A</i> × <i>X</i></span> to <span class="nowrap"><i>B</i> × <i>Y</i></span> with</p>
+<dl>
+<dd><span><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mo stretchy="false">(</mo>
+        <mi>f</mi>
+        <mo>×<!-- × --></mo>
+        <mi>g</mi>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">(</mo>
+        <mi>a</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>a</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+        <mi>g</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">)</mo>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle (f\times g)(a,x)=(f(a),g(x)).}</annotation>
+  </semantics>
+</math></span><img src="Cartesian_product_%20Wikipedia_files/7efedf113985619734ff34577eb2c3384d823e5b.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:27.849ex; height:2.843ex;" alt="{\displaystyle (f\times g)(a,x)=(f(a),g(x)).}"></span></dd>
+</dl>
+<p>This can be extended to <a href="https://en.wikipedia.org/wiki/Tuple" title="Tuple">tuples</a>
+ and infinite collections of functions. Note that this is different from
+ the standard cartesian product of functions considered as sets.</p>
+<h2><span class="mw-headline" id="Definitions_outside_of_set_theory">Definitions outside of set theory</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=15" title="Edit section: Definitions outside of set theory">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Category_theory">Category theory</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=16" title="Edit section: Category theory">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Although the Cartesian product is traditionally applied to sets, <a href="https://en.wikipedia.org/wiki/Category_theory" title="Category theory">category theory</a> provides a more general interpretation of the <a href="https://en.wikipedia.org/wiki/Product_%28category_theory%29" title="Product (category theory)">product</a> of mathematical structures. This is distinct from, although related to, the notion of a <a href="https://en.wikipedia.org/wiki/Cartesian_square_%28category_theory%29" class="mw-redirect" title="Cartesian square (category theory)">Cartesian square</a> in category theory, which is a generalization of the <a href="https://en.wikipedia.org/wiki/Fiber_product" class="mw-redirect" title="Fiber product">fiber product</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Exponential_object" title="Exponential object">Exponentiation</a> is the <a href="https://en.wikipedia.org/wiki/Right_adjoint" class="mw-redirect" title="Right adjoint">right adjoint</a> of the Cartesian product; thus any category with a Cartesian product (and a <a href="https://en.wikipedia.org/wiki/Final_object" class="mw-redirect" title="Final object">final object</a>) is a <a href="https://en.wikipedia.org/wiki/Cartesian_closed_category" title="Cartesian closed category">Cartesian closed category</a>.</p>
+<h3><span class="mw-headline" id="Graph_theory">Graph theory</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=17" title="Edit section: Graph theory">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In <a href="https://en.wikipedia.org/wiki/Graph_theory" title="Graph theory">graph theory</a> the <a href="https://en.wikipedia.org/wiki/Cartesian_product_of_graphs" title="Cartesian product of graphs">Cartesian product of two graphs</a> <i>G</i> and <i>H</i> is the graph denoted by <span class="nowrap"><i>G</i> × <i>H</i></span> whose <a href="https://en.wikipedia.org/wiki/Vertex_%28graph_theory%29" title="Vertex (graph theory)">vertex</a> set is the (ordinary) Cartesian product <span class="nowrap"><i>V</i>(<i>G</i>) × <i>V</i>(<i>H</i>)</span> and such that two vertices (<i>u</i>,<i>v</i>) and (<i>u</i>′,<i>v</i>′) are adjacent in <span class="nowrap"><i>G</i> × <i>H</i></span> if and only if <span class="nowrap"><i>u</i> = <i>u</i>′</span> and <i>v</i> is adjacent with <i>v</i>′ in <i>H</i>, <i>or</i> <span class="nowrap"><i>v</i> = <i>v</i>′</span> and <i>u</i> is adjacent with <i>u</i>′ in <i>G</i>. The Cartesian product of graphs is not a <a href="https://en.wikipedia.org/wiki/Product_%28category_theory%29" title="Product (category theory)">product</a> in the sense of category theory. Instead, the categorical product is known as the <a href="https://en.wikipedia.org/wiki/Tensor_product_of_graphs" title="Tensor product of graphs">tensor product of graphs</a>.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=18" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Binary_relation" title="Binary relation">Binary relation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Empty_product" title="Empty product">Empty product</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Euclidean_space" title="Euclidean space">Euclidean space</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Exponential_object" title="Exponential object">Exponential object</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Concatenation#Concatenation_of_sets_of_strings" title="Concatenation">Concatenation of sets of strings</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Coproduct" title="Coproduct">Coproduct</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Finitary_relation" title="Finitary relation">Finitary relation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Join_%28SQL%29#Cross_join" title="Join (SQL)">Join (SQL) § Cross join</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Total_order#Orders_on_the_Cartesian_product_of_totally_ordered_sets" title="Total order">Orders on the Cartesian product of totally ordered sets</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Product_%28category_theory%29" title="Product (category theory)">Product (category theory)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Product_topology" title="Product topology">Product topology</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Product_type" title="Product type">Product type</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ultraproduct" title="Ultraproduct">Ultraproduct</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=19" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation book">Warner, S. (1990). <i>Modern Algebra</i>. <a href="https://en.wikipedia.org/wiki/Dover_Publications" title="Dover Publications">Dover Publications</a>. p.&nbsp;6.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACartesian+product&amp;rft.aufirst=S.&amp;rft.aulast=Warner&amp;rft.btitle=Modern+Algebra&amp;rft.date=1990&amp;rft.genre=book&amp;rft.pages=6&amp;rft.pub=Dover+Publications&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.merriam-webster.com/dictionary/cartesian">"Cartesian"</a>. <i>Merriam-Webster.com</i>. 2009<span class="reference-accessdate">. Retrieved <span class="nowrap">December 1,</span> 2009</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACartesian+product&amp;rft.atitle=Cartesian&amp;rft.date=2009&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fcartesian&amp;rft.jtitle=Merriam-Webster.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-cnx-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-cnx_3-0"><span class="cite-accessibility-label">Jump up to: </span><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-cnx_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Singh, S. (2009, August 27). <i>Cartesian product</i>. Retrieved from the Connexions Web site: <a rel="nofollow" class="external free" href="http://cnx.org/content/m15207/1.5/">http://cnx.org/content/m15207/1.5/</a></span></li>
+<li id="cite_note-planetmath-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-planetmath_4-0"><span class="cite-accessibility-label">Jump up to: </span><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-planetmath_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://planetmath.org/?op=getobj&amp;from=objects&amp;id=359">"CartesianProduct"</a>. <i><a href="https://en.wikipedia.org/wiki/PlanetMath" title="PlanetMath">PlanetMath</a></i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACartesian+product&amp;rft.atitle=CartesianProduct&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fplanetmath.org%2F%3Fop%3Dgetobj%26amp%3Bfrom%3Dobjects%26amp%3Bid%3D359&amp;rft.jtitle=PlanetMath&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&nbsp;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Cartesian Product of Subsets. (2011, February 15). <i>ProofWiki</i>. Retrieved 05:06, August 1, 2011 from <a rel="nofollow" class="external free" href="https://proofwiki.org/w/index.php?title=Cartesian_Product_of_Subsets&amp;oldid=45868">https://proofwiki.org/w/index.php?title=Cartesian_Product_of_Subsets&amp;oldid=45868</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Peter S. (1998). A Crash Course in the Mathematics Of Infinite Sets. <i>St. John's Review, 44</i>(2), 35–59. Retrieved August 1, 2011, from <a rel="nofollow" class="external free" href="http://www.mathpath.org/concepts/infinity.htm">http://www.mathpath.org/concepts/infinity.htm</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7"><span class="cite-accessibility-label">Jump up </span>^</a></b></span> <span class="reference-text">Osborne, M., and Rubinstein, A., 1994. <i>A Course in Game Theory</i>. MIT Press.</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit&amp;section=20" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.apronus.com/provenmath/cartesian.htm">Cartesian Product at ProvenMath</a></li>
+<li><cite id="CITEREFHazewinkel2001" class="citation">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/d032730">"Direct product"</a>, <i><a href="https://en.wikipedia.org/wiki/Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="https://en.wikipedia.org/wiki/Springer_Science%2BBusiness_Media" title="Springer Science+Business Media">Springer</a>, <a href="https://en.wikipedia.org/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&nbsp;<a href="https://en.wikipedia.org/wiki/Special:BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a></cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ACartesian+product&amp;rft.atitle=Direct+product&amp;rft.btitle=Encyclopedia+of+Mathematics&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft_id=http%3A%2F%2Fwww.encyclopediaofmath.org%2Findex.php%3Ftitle%3Dp%2Fd032730&amp;rft.isbn=978-1-55608-010-4&amp;rft.pub=Springer&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&nbsp;</span></span></li>
+<li><a rel="nofollow" class="external text" href="http://education-portal.com/academy/lesson/how-to-find-the-cartesian-product.html">How to find the Cartesian Product, Education Portal Academy</a></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Set_theory" style="padding:3px">
+<table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit" id="collapsibleTable0">
+<tbody><tr>
+<th scope="col" class="navbox-title" colspan="3"><span class="collapseButton">[<a id="collapseButton0" href="#">show</a>]</span>
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="https://en.wikipedia.org/wiki/Template:Set_theory" title="Template:Set theory"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="https://en.wikipedia.org/wiki/Template_talk:Set_theory" title="Template talk:Set theory"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Set_theory&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Set_theory" style="font-size:114%"><a href="https://en.wikipedia.org/wiki/Set_theory" title="Set theory">Set theory</a></div>
+</th>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Axiom" title="Axiom">Axioms</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_choice" title="Axiom of choice">Choice</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_countable_choice" title="Axiom of countable choice">countable</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_dependent_choice" title="Axiom of dependent choice">dependent</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_constructibility" title="Axiom of constructibility">Constructibility (V=L)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_determinacy" title="Axiom of determinacy">Determinacy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_extensionality" title="Axiom of extensionality">Extensionality</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_infinity" title="Axiom of infinity">Infinity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_pairing" title="Axiom of pairing">Pairing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_power_set" title="Axiom of power set">Power set</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_regularity" title="Axiom of regularity">Regularity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_of_union" title="Axiom of union">Union</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Martin%27s_axiom" title="Martin's axiom">Martin's axiom</a></li>
+</ul>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_schema" title="Axiom schema">Axiom schema</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_schema_of_replacement" title="Axiom schema of replacement">replacement</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiom_schema_of_specification" title="Axiom schema of specification">specification</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="13" style="width:0%;padding:0px 0px 0px 2px">
+<div><a href="https://en.wikipedia.org/wiki/Venn_diagram" title="Venn diagram"><img alt="Venn diagram of set intersection" src="Cartesian_product_%20Wikipedia_files/100px-Venn_A_intersect_B.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/150px-Venn_A_intersect_B.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/200px-Venn_A_intersect_B.svg.png 2x" data-file-width="350" data-file-height="250" width="100" height="71"></a></div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Set_%28mathematics%29#Basic_operations" title="Set (mathematics)">Operations</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Cartesian product</strong></li>
+<li><a href="https://en.wikipedia.org/wiki/Complement_%28set_theory%29" title="Complement (set theory)">Complement</a></li>
+<li><a href="https://en.wikipedia.org/wiki/De_Morgan%27s_laws" title="De Morgan's laws">De Morgan's laws</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Disjoint_union" title="Disjoint union">Disjoint union</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Intersection_%28set_theory%29" title="Intersection (set theory)">Intersection</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Power_set" title="Power set">Power set</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Complement_%28set_theory%29" title="Complement (set theory)">Set difference</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Symmetric_difference" title="Symmetric difference">Symmetric difference</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Union_%28set_theory%29" title="Union (set theory)">Union</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">
+<div class="hlist">
+<ul>
+<li>Concepts</li>
+<li>Methods</li>
+</ul>
+</div>
+</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cardinality" title="Cardinality">Cardinality</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cardinal_number" title="Cardinal number">Cardinal number</a>&nbsp;(<a href="https://en.wikipedia.org/wiki/Large_cardinal" title="Large cardinal">large</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Class_%28set_theory%29" title="Class (set theory)">Class</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Constructible_universe" title="Constructible universe">Constructible universe</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Continuum_hypothesis" title="Continuum hypothesis">Continuum hypothesis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument" title="Cantor's diagonal argument">Diagonal argument</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Element_%28mathematics%29" title="Element (mathematics)">Element</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ordered_pair" title="Ordered pair">ordered pair</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tuple" title="Tuple">tuple</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Family_of_sets" title="Family of sets">Family</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Forcing_%28mathematics%29" title="Forcing (mathematics)">Forcing</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bijection" title="Bijection">One-to-one correspondence</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ordinal_number" title="Ordinal number">Ordinal number</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transfinite_induction" title="Transfinite induction">Transfinite induction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Set_%28mathematics%29" title="Set (mathematics)">Set</a> types</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Countable_set" title="Countable set">Countable</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Empty_set" title="Empty set">Empty</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Finite_set" title="Finite set">Finite</a>&nbsp;(<a href="https://en.wikipedia.org/wiki/Hereditarily_finite_set" title="Hereditarily finite set">hereditarily</a>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Fuzzy_set" title="Fuzzy set">Fuzzy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Infinite_set" title="Infinite set">Infinite</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Recursive_set" title="Recursive set">Recursive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Subset_and_superset" class="mw-redirect" title="Subset and superset">Subset&nbsp;<b>·</b> Superset</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Transitive_set" title="Transitive set">Transitive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Uncountable_set" title="Uncountable set">Uncountable</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Universal_set" title="Universal set">Universal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">Theories</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Alternative_set_theory" title="Alternative set theory">Alternative</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Axiomatic_set_theory" class="mw-redirect" title="Axiomatic set theory">Axiomatic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Naive_set_theory" title="Naive set theory">Naive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cantor%27s_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+</ul>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Zermelo_set_theory" title="Zermelo set theory">Zermelo</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/General_set_theory" title="General set theory">General</a></li>
+</ul>
+</li>
+<li><i><a href="https://en.wikipedia.org/wiki/Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a></i>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/New_Foundations" title="New Foundations">New Foundations</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" title="Von Neumann–Bernays–Gödel set theory">von Neumann–Bernays–Gödel</a>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Morse%E2%80%93Kelley_set_theory" title="Morse–Kelley set theory">Morse–Kelley</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Kripke%E2%80%93Platek_set_theory" title="Kripke–Platek set theory">Kripke–Platek</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tarski%E2%80%93Grothendieck_set_theory" title="Tarski–Grothendieck set theory">Tarski–Grothendieck</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group">
+<div class="hlist">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Paradoxes_of_set_theory" title="Paradoxes of set theory">Paradoxes</a></li>
+<li>Problems</li>
+</ul>
+</div>
+</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Russell%27s_paradox" title="Russell's paradox">Russell's paradox</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Suslin%27s_problem" title="Suslin's problem">Suslin's problem</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height: 2px; display: none;">
+<td colspan="2"></td>
+</tr>
+<tr style="display: none;">
+<th scope="row" class="navbox-group"><a href="https://en.wikipedia.org/wiki/Category:Set_theorists" title="Category:Set theorists">Set theorists</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Abraham_Fraenkel" title="Abraham Fraenkel">Abraham Fraenkel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ernst_Zermelo" title="Ernst Zermelo">Ernst Zermelo</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Georg_Cantor" title="Georg Cantor">Georg Cantor</a></li>
+<li><a href="https://en.wikipedia.org/wiki/John_von_Neumann" title="John von Neumann">John von Neumann</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Paul_Bernays" title="Paul Bernays">Paul Bernays</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Paul_Cohen" title="Paul Cohen">Paul Cohen</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thomas_Jech" title="Thomas Jech">Thomas Jech</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thoralf_Skolem" title="Thoralf Skolem">Thoralf Skolem</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Willard Quine</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1254
+Cached time: 20161229025608
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.176 seconds
+Real time usage: 0.390 seconds
+Preprocessor visited node count: 1048/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 28342/2097152 bytes
+Template argument size: 896/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 1/500
+Lua time usage: 0.041/10.000 seconds
+Lua memory usage: 2.52 MB/50 MB
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  121.245      1 - -total
+ 41.12%   49.850      1 - Template:Reflist
+ 23.96%   29.055      1 - Template:Cite_book
+ 18.56%   22.498      1 - Template:Redirect
+ 15.14%   18.355      1 - Template:Set_theory
+ 13.57%   16.459      1 - Template:Navbox
+  7.26%    8.802      1 - Template:Springer
+  6.25%    7.581      2 - Template:Cite_web
+  5.21%    6.312      2 - Template:Hlist
+  5.20%    6.310      1 - Template:Citation
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:24104095-0!*!0!!en!4!*!math=5 and timestamp 20161229025608 and revision id 747078484
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;oldid=747078484">https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;oldid=747078484</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.wikipedia.org/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="https://en.wikipedia.org/wiki/Category:Axiom_of_choice" title="Category:Axiom of choice">Axiom of choice</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Basic_concepts_in_set_theory" title="Category:Basic concepts in set theory">Basic concepts in set theory</a></li><li><a href="https://en.wikipedia.org/wiki/Category:Binary_operations" title="Category:Binary operations">Binary operations</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="https://en.wikipedia.org/wiki/Special:MyTalk" title="Discussion about edits from this IP address [Alt+Shift+n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="https://en.wikipedia.org/wiki/Special:MyContributions" title="A list of edits made from this IP address [Alt+Shift+y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&amp;returnto=Cartesian+product" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&amp;returnto=Cartesian+product" title="You're encouraged to log in; however, it's not mandatory. [Alt+Shift+o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="https://en.wikipedia.org/wiki/Cartesian_product" title="View the content page [Alt+Shift+c]" accesskey="c">Article</a></span></li>
+															<li id="ca-talk"><span><a href="https://en.wikipedia.org/wiki/Talk:Cartesian_product" title="Discussion about the content page [Alt+Shift+t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label" tabindex="0">
+							<span>Variants</span><a href="#" tabindex="-1"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="https://en.wikipedia.org/wiki/Cartesian_product">Read</a></span></li>
+															<li id="ca-edit"><span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=edit" title="Edit this page [Alt+Shift+e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=history" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<h3 id="p-cactions-label" tabindex="0"><span>More</span><a href="#" tabindex="-1"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input name="search" placeholder="Search Wikipedia" title="Search Wikipedia [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off" type="search"><input value="Special:Search" name="title" type="hidden"><input name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" type="submit">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="https://en.wikipedia.org/wiki/Main_Page" title="Visit the main page [Alt+Shift+z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="https://en.wikipedia.org/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="https://en.wikipedia.org/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="https://en.wikipedia.org/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="https://en.wikipedia.org/wiki/Special:Random" title="Load a random article [Alt+Shift+x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="https://shop.wikimedia.org/" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-interaction" aria-labelledby="p-interaction-label">
+			<h3 id="p-interaction-label">Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="https://en.wikipedia.org/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="https://en.wikipedia.org/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [Alt+Shift+r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Cartesian_product" title="List of all English Wikipedia pages containing links to this page [Alt+Shift+j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Cartesian_product" rel="nofollow" title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [Alt+Shift+u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="https://en.wikipedia.org/wiki/Special:SpecialPages" title="A list of all special pages [Alt+Shift+q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;oldid=747078484" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q173740" title="Link to connected data repository item [Alt+Shift+g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&amp;page=Cartesian_product&amp;id=747078484" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-coll-print_export" aria-labelledby="p-coll-print_export-label">
+			<h3 id="p-coll-print_export-label">Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Cartesian+product">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="https://en.wikipedia.org/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Cartesian+product&amp;returnto=Cartesian+product&amp;oldid=747078484&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="https://en.wikipedia.org/w/index.php?title=Cartesian_product&amp;printable=yes" title="Printable version of this page [Alt+Shift+p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label"><span class="uls-settings-trigger" title="Language settings" tabindex="0" role="button" aria-haspopup="true"></span>
+			<h3 id="p-lang-label">Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-am"><a href="https://am.wikipedia.org/wiki/%E1%88%AD%E1%89%A2_%E1%88%B5%E1%89%A5%E1%88%B5%E1%89%A5" title="ርቢ ስብስብ – Amharic" hreflang="am" class="interlanguage-link-target" lang="am">አማርኛ</a></li><li class="interlanguage-link interwiki-ar"><a href="https://ar.wikipedia.org/wiki/%D8%AC%D8%AF%D8%A7%D8%A1_%D8%AF%D9%8A%D9%83%D8%A7%D8%B1%D8%AA%D9%8A" title="جداء ديكارتي – Arabic" hreflang="ar" class="interlanguage-link-target" lang="ar">العربية</a></li><li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%94%D1%8D%D0%BA%D0%B0%D1%80%D1%82%D0%B0%D1%9E_%D0%B7%D0%B4%D0%B0%D0%B1%D1%8B%D1%82%D0%B0%D0%BA" title="Дэкартаў здабытак – Belarusian" hreflang="be" class="interlanguage-link-target" lang="be">Беларуская</a></li><li class="interlanguage-link interwiki-be-x-old"><a href="https://be-x-old.wikipedia.org/wiki/%D0%94%D1%8D%D0%BA%D0%B0%D1%80%D1%82%D0%B0%D0%B2%D1%8B_%D0%B7%D0%B4%D0%B0%D0%B1%D1%8B%D1%82%D0%B0%D0%BA" title="Дэкартавы здабытак – беларуская (тарашкевіца)‎" hreflang="be-x-old" class="interlanguage-link-target" lang="be-x-old">Беларуская (тарашкевіца)‎</a></li><li class="interlanguage-link interwiki-bg"><a href="https://bg.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" title="Декартово произведение – Bulgarian" hreflang="bg" class="interlanguage-link-target" lang="bg">Български</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Producte_cartesi%C3%A0" title="Producte cartesià – Catalan" hreflang="ca" class="interlanguage-link-target" lang="ca">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Kart%C3%A9zsk%C3%BD_sou%C4%8Din" title="Kartézský součin – Czech" hreflang="cs" class="interlanguage-link-target" lang="cs">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Kartesisk_produkt" title="Kartesisk produkt – Danish" hreflang="da" class="interlanguage-link-target" lang="da">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Kartesisches_Produkt" title="Kartesisches Produkt – German" hreflang="de" class="interlanguage-link-target" lang="de">Deutsch</a></li><li class="interlanguage-link interwiki-et"><a href="https://et.wikipedia.org/wiki/Otsekorrutis" title="Otsekorrutis – Estonian" hreflang="et" class="interlanguage-link-target" lang="et">Eesti</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%B1%CF%81%CF%84%CE%B5%CF%83%CE%B9%CE%B1%CE%BD%CF%8C_%CE%B3%CE%B9%CE%BD%CF%8C%CE%BC%CE%B5%CE%BD%CE%BF" title="Καρτεσιανό γινόμενο – Greek" hreflang="el" class="interlanguage-link-target" lang="el">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Producto_cartesiano" title="Producto cartesiano – Spanish" hreflang="es" class="interlanguage-link-target" lang="es">Español</a></li><li class="interlanguage-link interwiki-eo"><a href="https://eo.wikipedia.org/wiki/Kartezia_produto" title="Kartezia produto – Esperanto" hreflang="eo" class="interlanguage-link-target" lang="eo">Esperanto</a></li><li class="interlanguage-link interwiki-eu"><a href="https://eu.wikipedia.org/wiki/Biderketa_kartesiar" title="Biderketa kartesiar – Basque" hreflang="eu" class="interlanguage-link-target" lang="eu">Euskara</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%B6%D8%B1%D8%A8_%D8%AF%DA%A9%D8%A7%D8%B1%D8%AA%DB%8C" title="ضرب دکارتی – Persian" hreflang="fa" class="interlanguage-link-target" lang="fa">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Produit_cart%C3%A9sien" title="Produit cartésien – French" hreflang="fr" class="interlanguage-link-target" lang="fr">Français</a></li><li class="interlanguage-link interwiki-ga"><a href="https://ga.wikipedia.org/wiki/Iolr%C3%BA_Cairt%C3%A9iseach" title="Iolrú Cairtéiseach – Irish" hreflang="ga" class="interlanguage-link-target" lang="ga">Gaeilge</a></li><li class="interlanguage-link interwiki-gd"><a href="https://gd.wikipedia.org/wiki/Toradh_Cartesach" title="Toradh Cartesach – Scottish Gaelic" hreflang="gd" class="interlanguage-link-target" lang="gd">Gàidhlig</a></li><li class="interlanguage-link interwiki-gl"><a href="https://gl.wikipedia.org/wiki/Produto_cartesiano" title="Produto cartesiano – Galician" hreflang="gl" class="interlanguage-link-target" lang="gl">Galego</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EA%B3%B1%EC%A7%91%ED%95%A9" title="곱집합 – Korean" hreflang="ko" class="interlanguage-link-target" lang="ko">한국어</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%97%E0%A5%81%E0%A4%A3%E0%A4%A8" title="कार्तीय गुणन – Hindi" hreflang="hi" class="interlanguage-link-target" lang="hi">हिन्दी</a></li><li class="interlanguage-link interwiki-is"><a href="https://is.wikipedia.org/wiki/Faldmengi" title="Faldmengi – Icelandic" hreflang="is" class="interlanguage-link-target" lang="is">Íslenska</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Prodotto_cartesiano" title="Prodotto cartesiano – Italian" hreflang="it" class="interlanguage-link-target" lang="it">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%A4%D7%9C%D7%94_%D7%A7%D7%A8%D7%98%D7%96%D7%99%D7%AA" title="מכפלה קרטזית – Hebrew" hreflang="he" class="interlanguage-link-target" lang="he">עברית</a></li><li class="interlanguage-link interwiki-ka"><a href="https://ka.wikipedia.org/wiki/%E1%83%93%E1%83%94%E1%83%99%E1%83%90%E1%83%A0%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9C%E1%83%90%E1%83%9B%E1%83%A0%E1%83%90%E1%83%95%E1%83%9A%E1%83%98" title="დეკარტული ნამრავლი – Georgian" hreflang="ka" class="interlanguage-link-target" lang="ka">ქართული</a></li><li class="interlanguage-link interwiki-lv"><a href="https://lv.wikipedia.org/wiki/Dekarta_reizin%C4%81jums" title="Dekarta reizinājums – Latvian" hreflang="lv" class="interlanguage-link-target" lang="lv">Latviešu</a></li><li class="interlanguage-link interwiki-lt"><a href="https://lt.wikipedia.org/wiki/Dekarto_sandauga" title="Dekarto sandauga – Lithuanian" hreflang="lt" class="interlanguage-link-target" lang="lt">Lietuvių</a></li><li class="interlanguage-link interwiki-lmo"><a href="https://lmo.wikipedia.org/wiki/Cungjuunt_prud%C3%BCit" title="Cungjuunt prudüit – Lombard" hreflang="lmo" class="interlanguage-link-target" lang="lmo">Lumbaart</a></li><li class="interlanguage-link interwiki-hu"><a href="https://hu.wikipedia.org/wiki/Descartes-szorzat" title="Descartes-szorzat – Hungarian" hreflang="hu" class="interlanguage-link-target" lang="hu">Magyar</a></li><li class="interlanguage-link interwiki-ms"><a href="https://ms.wikipedia.org/wiki/Hasil_darab_Descartes" title="Hasil darab Descartes – Malay" hreflang="ms" class="interlanguage-link-target" lang="ms">Bahasa Melayu</a></li><li class="interlanguage-link interwiki-mwl"><a href="https://mwl.wikipedia.org/wiki/Perduto_cartesiano" title="Perduto cartesiano – Mirandese" hreflang="mwl" class="interlanguage-link-target" lang="mwl">Mirandés</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Cartesisch_product" title="Cartesisch product – Dutch" hreflang="nl" class="interlanguage-link-target" lang="nl">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E7%9B%B4%E7%A9%8D%E9%9B%86%E5%90%88" title="直積集合 – Japanese" hreflang="ja" class="interlanguage-link-target" lang="ja">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Kartesisk_produkt" title="Kartesisk produkt – Norwegian" hreflang="no" class="interlanguage-link-target" lang="no">Norsk bokmål</a></li><li class="interlanguage-link interwiki-nn"><a href="https://nn.wikipedia.org/wiki/Kartesisk_produkt" title="Kartesisk produkt – Norwegian Nynorsk" hreflang="nn" class="interlanguage-link-target" lang="nn">Norsk nynorsk</a></li><li class="interlanguage-link interwiki-oc"><a href="https://oc.wikipedia.org/wiki/Produch_cartesian" title="Produch cartesian – Occitan" hreflang="oc" class="interlanguage-link-target" lang="oc">Occitan</a></li><li class="interlanguage-link interwiki-pms"><a href="https://pms.wikipedia.org/wiki/Prodot_cartesian" title="Prodot cartesian – Piedmontese" hreflang="pms" class="interlanguage-link-target" lang="pms">Piemontèis</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Iloczyn_kartezja%C5%84ski" title="Iloczyn kartezjański – Polish" hreflang="pl" class="interlanguage-link-target" lang="pl">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Produto_cartesiano" title="Produto cartesiano – Portuguese" hreflang="pt" class="interlanguage-link-target" lang="pt">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Produs_cartezian" title="Produs cartezian – Romanian" hreflang="ro" class="interlanguage-link-target" lang="ro">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" title="Прямое произведение – Russian" hreflang="ru" class="interlanguage-link-target" lang="ru">Русский</a></li><li class="interlanguage-link interwiki-simple"><a href="https://simple.wikipedia.org/wiki/Cartesian_product" title="Cartesian product – Simple English" hreflang="simple" class="interlanguage-link-target" lang="simple">Simple English</a></li><li class="interlanguage-link interwiki-sk"><a href="https://sk.wikipedia.org/wiki/Kartezi%C3%A1nsky_s%C3%BA%C4%8Din" title="Karteziánsky súčin – Slovak" hreflang="sk" class="interlanguage-link-target" lang="sk">Slovenčina</a></li><li class="interlanguage-link interwiki-sl"><a href="https://sl.wikipedia.org/wiki/Kartezi%C4%8Dni_produkt" title="Kartezični produkt – Slovenian" hreflang="sl" class="interlanguage-link-target" lang="sl">Slovenščina</a></li><li class="interlanguage-link interwiki-sr"><a href="https://sr.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4" title="Декартов производ – Serbian" hreflang="sr" class="interlanguage-link-target" lang="sr">Српски / srpski</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Karteesinen_tulo" title="Karteesinen tulo – Finnish" hreflang="fi" class="interlanguage-link-target" lang="fi">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Cartesisk_produkt" title="Cartesisk produkt – Swedish" hreflang="sv" class="interlanguage-link-target" lang="sv">Svenska</a></li><li class="interlanguage-link interwiki-tl"><a href="https://tl.wikipedia.org/wiki/Produktong_Cartesian" title="Produktong Cartesian – Tagalog" hreflang="tl" class="interlanguage-link-target" lang="tl">Tagalog</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%80%E0%AE%9A%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AF%8D_%E0%AE%AA%E0%AF%86%E0%AE%B0%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%B2%E0%AE%A9%E0%AF%8D" title="கார்ட்டீசியன் பெருக்கற்பலன் – Tamil" hreflang="ta" class="interlanguage-link-target" lang="ta">தமிழ்</a></li><li class="interlanguage-link interwiki-th"><a href="https://th.wikipedia.org/wiki/%E0%B8%9C%E0%B8%A5%E0%B8%84%E0%B8%B9%E0%B8%93%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99" title="ผลคูณคาร์ทีเซียน – Thai" hreflang="th" class="interlanguage-link-target" lang="th">ไทย</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%94%D0%B5%D0%BA%D0%B0%D1%80%D1%82%D1%96%D0%B2_%D0%B4%D0%BE%D0%B1%D1%83%D1%82%D0%BE%D0%BA_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD" title="Декартів добуток множин – Ukrainian" hreflang="uk" class="interlanguage-link-target" lang="uk">Українська</a></li><li class="interlanguage-link interwiki-vi"><a href="https://vi.wikipedia.org/wiki/T%C3%ADch_Descartes" title="Tích Descartes – Vietnamese" hreflang="vi" class="interlanguage-link-target" lang="vi">Tiếng Việt</a></li><li class="interlanguage-link interwiki-zh-classical"><a href="https://zh-classical.wikipedia.org/wiki/%E7%9B%B4%E7%A9%8D" title="直積 – Classical Chinese" hreflang="zh-classical" class="interlanguage-link-target" lang="zh-classical">文言</a></li><li class="interlanguage-link interwiki-vls"><a href="https://vls.wikipedia.org/wiki/Cartesisch_product" title="Cartesisch product – West Flemish" hreflang="vls" class="interlanguage-link-target" lang="vls">West-Vlams</a></li><li class="interlanguage-link interwiki-zh-yue"><a href="https://zh-yue.wikipedia.org/wiki/%E7%AC%9B%E5%8D%A1%E5%85%92%E7%A9%8D" title="笛卡兒積 – Cantonese" hreflang="zh-yue" class="interlanguage-link-target" lang="zh-yue">粵語</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%AC%9B%E5%8D%A1%E5%84%BF%E7%A7%AF" title="笛卡儿积 – Chinese" hreflang="zh" class="interlanguage-link-target" lang="zh">中文</a></li>					</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q173740#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 31 October 2016, at 09:04.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="https://wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="https://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="https://en.m.wikipedia.org/w/index.php?title=Cartesian_product&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="Cartesian_product_%20Wikipedia_files/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" alt="Wikimedia Foundation" width="88" height="31"></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="https://www.mediawiki.org/"><img src="Cartesian_product_%20Wikipedia_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1266"});});</script>
+	
+
+<div style="display: none; font-size: 13px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>
