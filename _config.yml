@@ -2,3 +2,4 @@ theme: jekyll-theme-tactile
 site: project
 gems:
   - jekyll-mentions
+markdown: index
